@@ -1,0 +1,318 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+* {
+  outline: none !important;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar.navbar-inverse {
+  background: #010101 !important;
+}
+
+.navbar-header * {
+  color: #ffffff !important;
+}
+
+.navbar-brand {
+  font-family: 'Oleo Script', cursive;
+  font-weight: bold;
+  font-size: 21px;
+  color: #FFA400 !important;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #010101;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #ffffff !important;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a {
+  color: #010101;
+  background-color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+  background-color: #010101;
+  color: #ffffff;
+}
+
+h2.section_title {
+  text-align: center;
+  font-size: 50px;
+  margin: 60px 50px;
+  font-weight: 600;
+  font-family: 'Oleo Script', cursive;
+}
+
+#startscreen {
+  margin-top: 50px;
+  padding-top: 65px;
+  min-height: 800px;
+  background: url(https://wallpaperscraft.com/image/nature_landscape_winter_sky_snow_full_moon_trees_birds_evening_10733_3840x2400.jpg) center center;
+  background-attachment: fixed;         
+  background-size: cover;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+#startscreen h1 {
+  margin-top:150px;
+  font-family: 'Oleo Script', cursive;
+  text-shadow: 1px 1px 3px #010101;
+}
+#startscreen h1 span {
+  font-size: 37px;
+  color: #FFA400;
+}
+#startscreen hr {         /*For the hr(line) in the startscreen */
+  max-width: 350px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+#startscreen span {
+  font-size: 30px;
+  text-shadow: 1px 1px 3px #010101;
+}
+#startscreen h2 {
+  margin: 50px auto 0;
+  padding: 12px 0;
+  font-size: 40px;
+  text-shadow: 1px 1px 3px #010101;
+  border-radius: 10px;
+  display: block;
+  max-width: 600px;
+  min-height: 70px;
+  font-weight: bold;
+  background-color: rgba(1, 1, 1, 0.5);
+}
+#startscreen a {
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 50px auto;
+  padding: 5px 0;
+  font-size: 30px;
+  max-width: 240px;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 3px #4e4e4e solid;
+  text-shadow: 1px 1px 3px #010101;
+  background: #009FFD;
+}
+#startscreen a:hover, #startscreen a:focus {
+  background: #1C77C3;
+  border-bottom: 1px #4e4e4e solid;
+}
+
+#features {
+  text-align: center;
+  padding: 20px 0 30px;
+}
+#features .num {
+  font-size: 70px;
+  display: block;
+  font-weight: bold;
+}
+#features .txt {
+  font-size: 30px;
+  top: -10px;
+  position: relative;
+}
+
+#about {
+  background: #010101;
+  padding: 0 0 60px;
+  color: #ffffff;
+}
+#about p {
+  font-size: 30px;
+  margin: 0 0 30px;
+}
+#about p b {
+  color: #FFA400;
+}
+#about img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 50%;
+  border: 7px #ffffff solid;
+}
+#about span {
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+}
+
+#portfolio {
+  padding-bottom: 50px;
+  text-align: center;
+}
+#portfolio h2 {
+  color: #010101;
+}
+#portfolio .project-wrap a {
+  background: #009FFD;
+  display: block;
+  border-radius: 10px;
+  color: #ffffff;
+  max-width: 400px;
+  margin: 20px auto;
+}
+#portfolio .project-wrap a img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+#portfolio .project-wrap a span, #portfolio .project-wrap a b {
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+#portfolio .project-wrap a span.top {
+  padding: 15px 10px 0;
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+#portfolio .project-wrap a span.bottom {
+  font-style: italic;
+  padding: 0 10px 15px;
+  display: block;
+  font-size: 18px;
+}
+#portfolio .project-wrap a:hover, #portfolio .project-wrap a:focus {
+  text-decoration: none !important;
+  background: #FFA400;
+  color: #010101;
+  -webkit-box-shadow: 0px 0px 7px 1px #818181;
+          box-shadow: 0px 0px 7px 1px #818181;
+}
+#portfolio .coming-soon a {
+  cursor: default;
+  background: #ddd;
+  color: #000;
+}
+#portfolio .coming-soon a:hover, #portfolio .coming-soon a:focus {
+  cursor: default;
+  text-decoration: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #ddd;
+  color: #000;
+}
+
+#contacts {
+  min-height: 300px;
+  color: #ffffff;
+  background: url(https://s-media-cache-ak0.pinimg.com/originals/f0/be/ba/f0bebaf5becd2f0345525ba82239f7ff.jpg) center center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+#contacts .social {
+  margin-bottom: 40px;
+}
+#contacts .email {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+#contacts .email a {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+#contacts .email a:hover, #contacts .email a:focus {
+  color: #009FFD;
+}
+#contacts .soc {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 10px 10px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+#contacts .soc:hover, #contacts .soc:focus {
+  color: #ffffff;
+  background: #009FFD;
+}
+#contacts .soc a {
+  display: block;
+  padding: 7px 12px;
+  text-decoration: none;
+  color: #010101;
+}
+#contacts .soc a i {
+  -webkit-transition: all 0s;
+  transition: all 0s;
+  margin-right: 5px;
+}
+#contacts .soc a:hover {
+  color: #ffffff;
+}
+
+#copy {
+  background: white;
+}
+#copy .copy {
+  text-align: left;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #010101;
+}
+
+#scroll-to-top {
+  display: none;
+  position: fixed;
+  opacity: 0.6;
+  background: #009FFD;
+  border-radius: 10px;
+  padding: 7px 10px 10px;
+  right: 20px;
+  bottom: 20px;
+  width: 47px;
+  height: 45px;
+  -webkit-transition: all 0s;
+  transition: all 0s;
+}
+#scroll-to-top i {
+  -webkit-transition: all 0s;
+  transition: all 0s;
+  color: #ffffff;
+}
+#scroll-to-top:hover {
+  opacity: 1;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #about p {
+    font-size: 25px;
+  }
+  #about span {
+    font-size: 30px;
+  }
+
+  #portfolio .project-wrap a span.top {
+    font-size: 17px;
+  }
+  #portfolio .project-wrap a span.bottom {
+    font-size: 16px;
+  }
+}
