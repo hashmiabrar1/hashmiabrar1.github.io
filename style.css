@@ -64,7 +64,7 @@ h2.section_title {
   margin-top: 50px;
   padding-top: 65px;
   min-height: 800px;
-  background: url(https://wallpaperscraft.com/image/nature_landscape_winter_sky_snow_full_moon_trees_birds_evening_10733_3840x2400.jpg) center center;
+  background-image: url("nature.jpg") center center;
   background-attachment: fixed;         
   background-size: cover;
   font-weight: bold;
